@@ -12,6 +12,7 @@ object DSetWordCount {
     val path = Thread.currentThread().getContextClassLoader.getResource("data.txt").getPath
     val dataSet = env.readTextFile(path)
     val result = dataSet.flatMap(_.split(" ")).map((_,1)).groupBy(0).sum(1)
+    //如果是打印则不用 env.execute() 否则需要执行
     result.print()
   }
 }
