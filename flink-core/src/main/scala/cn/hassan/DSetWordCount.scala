@@ -4,7 +4,7 @@ import org.apache.flink.api.scala.ExecutionEnvironment
 
 import org.apache.flink.api.scala._
 
-object ScalaWordCount {
+object DSetWordCount {
 
   def main(args: Array[String]): Unit = {
     // 1 env 2 source 3 transform 4 sink
