@@ -1,0 +1,4 @@
+hadoop hdfs yarn
+hive hbase
+spark flink
+flume hbase
